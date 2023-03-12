@@ -1,0 +1,151 @@
+#collapsibleNavbar{
+    justify-content: start;
+}
+body{
+    background-color: #debb82;
+    color: black;
+}
+.navbar-brand,.nav-link {
+    color: black;
+    font-family: cursive;
+    font-size:larger;
+    font-weight: bold;
+   
+}
+*{
+    font-family: cursive;
+    font-weight: bold; 
+}
+.btn-primary {
+    --bs-btn-bg: rgb(246, 115, 22);
+    --bs-btn-border-color: rgb(246, 115, 22);
+    --bs-btn-hover-bg:  rgb(222, 187, 130);
+    --bs-btn-hover-border-color: black;
+}
+.hr{
+    /* margin: 0px 300px; */
+    color: #f67316;
+    border-top: 8px solid;
+    opacity: 0.25;
+    border-radius: 50%;
+}
+ .container1{
+    padding-top:6%;
+    
+}  
+.container2 {
+    
+    padding-top: 8%;
+}
+.col-12{
+    padding-top: 4%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif */
+}
+
+
+.container2 .card
+{
+    max-width: 400px;
+    background-color: #f67316;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container2 .card:hover
+{
+    height: 600px;
+}
+.container2 .card .imgContainer
+{
+    position: relative;
+    width:350px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container2 .card .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container2 .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container2 .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .container2 .card .imgContainer{
+        left: -2px;
+    }
+}
+.soft-skills ,.Technical-skills{
+    border: 2px solid;    
+    height: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 12px 17px #e4a967;
+    
+}
+.container3{
+    padding-bottom: 57px;
+    padding-top: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+
+}
+
+body{
+    overflow-x: hidden;
+
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    background: var(--gray-color);
+    border: #111 solid;
+    border-radius: 10px;
+    font-weight: 900;
+    color: #090909;
+    font-size: 90%;
+    box-shadow: 2px 3px #111;
+
+}
+.skill:hover{
+    background-color: #f67316;
+}
+
+
