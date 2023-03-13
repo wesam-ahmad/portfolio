@@ -97,12 +97,13 @@ body{
     margin-top: -40px;
     transition-delay: 0.3s;
 }
-
 @media (max-width: 330px){
     .container2 .card .imgContainer{
         left: -2px;
     }
 }
+
+
 .soft-skills ,.Technical-skills{
     border: 2px solid;    
     height: 270px;
@@ -147,5 +148,6 @@ body{
 .skill:hover{
     background-color: #f67316;
 }
+
 
 
